@@ -1,0 +1,116 @@
+body{
+    background-color:peru ;
+}
+a{
+    color: inherit; 
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-h {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    float: right;
+}
+
+.menu-h:hover {
+    background-color: #ddd;
+}
+.basket{
+margin-left: 5%;
+}
+.basket-img{
+    width: 40px;
+    height: 40px;
+    color: #333;
+    float: left;
+}
+
+.from{
+    margin-top: 8%;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.from-block{
+    width: 50%;
+}
+.from-photo{
+    width: 99%;
+    height: 300px;
+    border-radius: 40px;
+}
+
+h1{
+    justify-content:center;
+    display: flex;
+    font-size: 3rem;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: center;
+    margin-bottom: 3%;
+
+}
+.object{
+    border-radius: 10px;
+    background-color: hwb(0 73% 17%);
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    align-items: center;
+    
+}
+.object-photo{
+    border-radius: 40px;
+    width: 100%;
+    height: 200px;
+}
+.products-name{
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+.products-price{
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+footer{
+    background-color: rgb(44, 27, 27) ;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+}
+.footer-photo{
+        width: 100px;
+        height: 80px;
+        margin-top: 10%;
+        margin-right: 10%;
+}
